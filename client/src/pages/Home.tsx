@@ -40,7 +40,7 @@ export default function Home() {
 
         // Spawning Logic
         // Difficulty increases as time decreases
-        const difficultyMultiplier = 1 + ((300 - timeRemaining) / 300); 
+        const difficultyMultiplier = 1 + ((180 - timeRemaining) / 180); 
         const currentSpawnRate = SPAWN_RATE_BASE / difficultyMultiplier;
 
         if (time - lastSpawnRef.current > currentSpawnRate) {

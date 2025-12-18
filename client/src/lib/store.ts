@@ -21,7 +21,7 @@ interface GameState {
   resetGame: () => void;
 }
 
-const INITIAL_TIME = 300; // 5 minutes
+const INITIAL_TIME = 180; // 3 minutes
 const MAX_ENERGY = 100;
 const ENERGY_REGEN_RATE = 5; // per second
 const REMOVAL_COST = 15;
